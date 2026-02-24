@@ -39,34 +39,34 @@ git clone https://github.com/MIKINHOUESSE/crud-laravel-10.git
 ### 2️⃣ Entrer dans le dossier
 
 ```bash
-cd crud-laravel-10
-3️⃣ Installer les dépendances
+## 📂 cd crud-laravel-10
+### 3️⃣ Installer les dépendances
 composer install
-4️⃣ Copier le fichier .env
+### 4️⃣ Copier le fichier .env
 cp .env.example .env
-5️⃣ Configurer la base de données
+### 5️⃣ Configurer la base de données
 
-Dans le fichier .env, modifier :
+## 📂 Dans le fichier .env, modifier :
 
 DB_DATABASE=nom_de_ta_base
 DB_USERNAME=root
 DB_PASSWORD=
-6️⃣ Générer la clé d’application
+### 6️⃣ Générer la clé d’application
 php artisan key:generate
-7️⃣ Lancer les migrations
+### 7️⃣ Lancer les migrations
 php artisan migrate
-8️⃣ Lancer le serveur
+### 8️⃣ Lancer le serveur
 php artisan serve
-📸 Gestion des photos
+## 📸 Gestion des photos
 
 Les photos sont uploadées via formulaire
 
 Stockage dans storage/app/public
 
-Lien symbolique créé avec :
+## 📂 Lien symbolique créé avec :
 
 php artisan storage:link
-📌 Structure du projet
+## 📌 Structure du projet
 
 app/Models/Student.php → Modèle étudiant
 
@@ -76,7 +76,7 @@ resources/views/ → Vues Blade
 
 database/migrations/ → Structure de la base de données
 
-🎯 Objectif pédagogique
+## 🎯 Objectif pédagogique
 
 Ce projet m’a permis de pratiquer :
 
@@ -92,7 +92,7 @@ Le versionnement avec Git
 
 Le déploiement sur GitHub
 
-👩‍💻 Auteur
+## 👩‍💻 Auteur
 
 MIKINHOUESSE
 
