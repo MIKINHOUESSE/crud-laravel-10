@@ -94,6 +94,6 @@ Le déploiement sur GitHub
 
 ## 👩‍💻 Auteur
 
-MIKINHOUESSE
+FIFAME CHANCELLE MIKINHOUESSE
 
 Projet réalisé dans le cadre d’apprentissage et de perfectionnement en développement web avec Laravel.
